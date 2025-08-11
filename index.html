@@ -1,27 +1,68 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>My First Web Page</title>
-    </head>
-    <body>
-        <h1>Introduction to HTML</h1>
-        <p>I am so excited! I just created my very first web page! This is amazing!!</p>
-        <h2>Lists</h2>
-        <h3>Ordered Lists</h3>
-        <ol type = "a" start ="14">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-        </ol>
-        <h3>Unordered Lists</h3>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-        </ul>
-        <h3>Embedded Image</h3>
-        <img src="Bird.jpg" alt="image of a bird" width="300" height="400">
-        <img src="https://images.pexels.com/photos/32994439/pexels-photo-32994439.jpeg" alt="what is this" width="300" height="400">
-    </body>
-</html>
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Mobile-friendly -->
+    <meta name="description" content="Meshack Yobby's first HTML assignment showcasing headings, lists, links, and basic HTML structure."> 
+    <meta name="keywords" content="HTML assignment, beginner HTML, HTML lists, HTML links, Meshack Yobby, web development basics">
+    <meta name="author" content="Meshack Yobby">
+    <title>HTML Week 1 Assignment - Meshack Yobby</title>
+</head> 
 
+<body> 
+    <header>
+        <h1>HTML WEEK 1 ASSIGNMENT</h1> 
+        <h2>By: Meshack Yobby</h2>
+
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="#home" title="Go to Home">Home</a></li>
+                <li><a href="#about" title="Learn more about this assignment">About</a></li>
+                <li><a href="#contact" title="Get in touch with Meshack Yobby">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="home">
+        <p>This is my first HTML assignment.</p>
+        <p>For many people, the first step in learning HTML is understanding the basic structure of an HTML document.</p>
+
+        <section id="about">
+            <h3>Lists</h3>
+            <p>I am now going to make an unordered list:</p>
+            <ul>
+                <li>Apples</li>
+                <li>Oranges</li>
+                <li>Mangoes</li>
+            </ul>
+
+            <p>And now an ordered list:</p>
+            <ol>
+                <li>Step 1</li>
+                <li>Step 2</li>
+                <li>Step 3</li>
+            </ol>
+        </section>
+
+        <section>
+            <h3>Links</h3>
+            <p>Here is a link to an image:</p>
+            <a href="https://www.pexels.com/photo/street-portrait-of-a-nigerian-boy-enjoying-a-snack-33110952/" target="_blank" title="View image on Pexels">
+                <img src="https://images.pexels.com/photos/33110952/pexels-photo-33110952.jpeg" 
+                     alt="Street portrait of a smiling Nigerian boy enjoying a snack" width="400">
+            </a>
+
+            <p>And here is a link to a website: 
+                <a href="https://www.pexels.com/" title="Free stock photos on Pexels">Visit Pexels</a>
+            </p>
+        </section>
+    </main>
+
+    <br>
+    <footer id="contact">
+        <p>Thank you for reading my assignment! Contact me at: 
+           <a href="mailto:meshackyobby@example.com" title="Send me an email">Email Me</a>
+        </p>
+    </footer>
+</body> 
+</html>
